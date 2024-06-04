@@ -1,4 +1,4 @@
-"""This is a simple module to rebase numbers from base 10 to any base between 2 and 36."""
+# This is a simple module to rebase numbers from base 10 to any base between 2 and 36.
 
 
 def from_base10(n, b):
@@ -33,6 +33,8 @@ def rebase_from10(number, base):
     if sign == -1:
         encoding = '-' + encoding
     return encoding
+
+# Example of use:
 
 
 e = rebase_from10(314, 2)
